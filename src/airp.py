@@ -14,7 +14,8 @@ AIRPD_PRODUCT_INDX = {
     8194: "airpod1",
     8207: "airpod2",
     8211: "airpod3",
-    8203: "powerbeatspro"
+    8203: "powerbeatspro",
+    8228: "airpodspro2usbc",
 }
 
 
@@ -74,7 +75,7 @@ def is_tool_installed(tool_name):
 
 
 def main():
-    # Check if blueutil is installed
+    # Check if Blueutil is installed
 
     query = Tools.getArgv(1)
     wf = Items()
